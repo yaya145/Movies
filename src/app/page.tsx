@@ -1,10 +1,3 @@
-/* export default function Home() {
-    return(
-      <div className= 'text-red-600'>Home</div>
-    )
-  } */
-
-
     /*Проект представляет собой интерактивный сервис умного
      подбора кино и сериалов Movies Choice, разработанный на
       технологическом стеке Next.js и TypeScript.
