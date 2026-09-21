@@ -14,11 +14,12 @@ interface HomeProps {
 
 export default function Home({ title }: HomeProps) {
   return (
-    <div className="text-red-600">
-      {title}Home
-    </div>
+    /* <div className="text-amber-50">
+      {title}
+    </div> */
+    <div></div>
   );
-}
+} 
 
   
   

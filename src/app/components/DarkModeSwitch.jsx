@@ -11,7 +11,6 @@ export default function DarkModeSwitch() {
     setMounted(true)
   }, [])
 
-  // НА СЕРВЕРЕ: Выносим style из кавычек className. Теперь размеры применятся строго!
   if (!mounted) {
     return <div style={{ width: '38px', height: '38px' }} className="block" />
   }
@@ -19,7 +18,7 @@ export default function DarkModeSwitch() {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      // В БРАУЗЕРЕ: Тоже выносим style отдельно от классов className
+      
       style={{ width: '38px', height: '38px' }}
       className="flex items-center justify-center rounded-xl border border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors duration-200 focus:outline-none"
       aria-label="Переключить тему"
